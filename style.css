@@ -1,0 +1,22 @@
+@keyframes rgb-border {
+    0% { border-color: #ff0000; }
+    33% { border-color: #00ff00; }
+    66% { border-color: #0000ff; }
+    100% { border-color: #ff0000; }
+}
+
+.rgb-border {
+    animation: rgb-border 3s linear infinite;
+    border-width: 2px;
+}
+
+.rgb-button {
+    animation: rgb-border 3s linear infinite;
+    border-width: 2px;
+    background-color: #000000;
+    color: white;
+}
+
+.rgb-button:hover {
+    background-color: #111111;
+}
